@@ -1,0 +1,5 @@
+mail:
+  host: "smtp.qq.com"
+  port: 587
+  username: "your@qq.com"
+  password: "emaiKey"

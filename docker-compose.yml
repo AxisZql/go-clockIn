@@ -1,0 +1,9 @@
+version: "3.7"
+services:
+  gzhu-clock-in:
+    container_name: gzhu-clockIn
+    build: .
+    restart: always
+    volumes:
+      - ./config/config.yml:/home/config/config.yml
+    privileged: true
